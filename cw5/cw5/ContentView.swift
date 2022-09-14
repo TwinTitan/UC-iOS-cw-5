@@ -18,7 +18,7 @@ struct ContentView: View {
             .padding()
             
         
-            Text("\(selectedEmoji)")
+            Text(selectedEmoji)
                 .font(.system(size: 50))
                 .padding()
         
